@@ -56,13 +56,14 @@ a{
     font-size: 23px;
     font-weight: bold;
 }
-.Financiamento{
+.financiamento{
     background: #ffda1f;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     padding: 50px;
     line-height: 40px;
+    margin-bottom: 40px;
 }
 .botao a {
     background:#000;
@@ -72,14 +73,14 @@ a{
 .botao{
     margin-top: 30px;
 }
-.produtos{
+.produtos, .depoimentos{
     text-align: center;
 }
-.produtos .titulo{
+.titulo{
     font-size: 45px;
     font-weight: bold;
 }
-.produtos .subtitulo{
+.subtitulo{
     font-size: 30px;
     font-weight: bold;
     color: #474747;
@@ -97,4 +98,27 @@ a:hover{
     transition: 0.3s;
     opacity: 0.8;
 }
-
+footer{
+    background-color: #474747;
+    margin-top: 40px;
+}
+footer .item{
+    color: #fff;
+}
+.depoimentos .item{
+    border: 1px solid #474747;
+    width: calc(30% - 2px);
+    padding-bottom: 20px;
+}
+.depoimentos img{
+    width: 100px;
+    border-radius: 50px;
+}
+.depoimentos .cliente{
+    margin-bottom: -100px;
+    padding-top: 10px;
+} 
+.depoimentos .cliente .nome{
+    font-weight: bold;
+    text-transform: uppercase;
+}
